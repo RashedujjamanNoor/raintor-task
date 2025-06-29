@@ -1,1 +1,20 @@
+@font-face {
+  font-family: Grotesque;
+  src: url(./assets/fonts/SportingGrotesque-Bold.otf);
+}
+
+@font-face {
+  font-family: GrotesqueR;
+  src: url(./assets/fonts/SportingGrotesque-Regular.otf);
+}
+
 @import "tailwindcss";
+
+@theme {
+  --font-grotesqueb: Grotesque, "sans-serif";
+  --font-grotesque: GrotesqueR, "sans-serif";
+}
+
+body {
+  font-family: grotesque;
+}
